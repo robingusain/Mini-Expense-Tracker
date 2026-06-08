@@ -1,0 +1,120 @@
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  text-decoration: none;
+  color: #cbd5e1;
+
+  padding: 14px 18px;
+  border-radius: 12px;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  transition: all 0.25s ease;
+}
+
+.sidebar nav a:hover {
+  background: #1e293b;
+  color: white;
+  transform: translateX(4px);
+}
+
+.sidebar nav a svg {
+  font-size: 18px;
+}
+
+.active {
+  background: #2563eb;
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.35);
+}
+
+.bottomSection {
+  margin-top: auto;
+  padding-top: 24px;
+  border-top: 1px solid #334155;
+}
+
+.userCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #2563eb;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  color: white;
+}
+
+.userInfo h4 {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+}
+
+.userInfo p {
+  font-size: 12px;
+  margin: 2px 0 0;
+  color: #94a3b8;
+}
+
+.exportBtn {
+  width: 100%;
+  border: none;
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 12px 16px;
+
+  font-size: 15px;
+  color: #64748b;
+
+  cursor: pointer;
+  border-radius: 12px;
+
+  transition: all 0.2s ease;
+}
+
+.exportBtn:hover {
+  background: #f1f5f9;
+  color: #2563eb;
+}

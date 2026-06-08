@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.content {
+  flex: 1;
+  padding: 24px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.chartGrid {
+  margin-top: 20px;
+
+  display: grid;
+
+  grid-template-columns: repeat(
+    2,
+    1fr
+  );
+
+  gap: 20px;
+}

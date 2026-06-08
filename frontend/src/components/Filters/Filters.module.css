@@ -1,0 +1,54 @@
+.filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  background: white;
+  padding: 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  box-shadow: 0 4px 20px rgba(
+    0,
+    0,
+    0,
+    0.05
+  );
+}
+
+.filters select,
+.filters input {
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.filters select:focus,
+.filters input:focus {
+  border-color: #2563eb;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #64748b;
+}
+
+.clearBtn {
+  margin-left: auto;
+
+  border: none;
+  background: #2563eb;
+  color: white;
+
+  padding: 10px 18px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.clearBtn:hover {
+  opacity: 0.9;
+}
